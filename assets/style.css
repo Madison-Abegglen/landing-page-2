@@ -1,0 +1,127 @@
+.brdr {
+  border: solid red;
+}
+.container-fluid {
+  background-color: rgb(218, 218, 218);
+}
+.hero-img-top {
+  background-image: url(https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=02ea02a05656a91ed66f0ea7e12e1ded&auto=format&fit=crop&w=1350&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-width: 100%;
+}
+.navbar {
+  height: 6rem;
+  min-width: 100%;
+  background-color: #554840;
+  color: white;
+  position: fixed;
+  z-index: 2;
+}
+.nav-2 {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.n-2 {
+  font-size: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.nav {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-left: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+a, a:link, a:visited, a:hover, a:focus {
+  outline: none;
+  text-decoration: none;
+  border-bottom-style: none;
+  color: white;
+}
+.title {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  color: white;
+  text-align: center;
+  overflow: auto;
+}
+.name {
+  font-size: 7rem;
+  text-transform: uppercase;
+  text-shadow: 0 0 1px rgb(180, 180, 180);
+}
+.prof {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prof-pic {
+  border-radius: 50%;
+  height: 12rem;
+  margin: 2rem;
+}
+.sub {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  color: white;
+}
+.subtitle {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-shadow: 0 0 1px rgb(180, 180, 180);
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+}
+.portfolio, .about, .contact {
+  height: 30rem;
+  background-color: #423730;
+}
+.portfolio {
+}
+.about {
+}
+.contact {
+}
+
+@media (max-width: 577px) {
+  .name {
+    font-size: 2rem;
+    margin-top: 2rem; 
+  }
+  .prof-pic {
+    height: 7rem;
+    margin-bottom: 1rem;
+  }
+  .sub {
+    display: flex;
+    margin-bottom: 1rem;
+    margin-left: 0;
+  }
+  .subtitle {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .navbar {
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .n-2, .nav {
+    font-size: 1rem;
+    border: solid red;
+    width: fit-content;
+  }
+}
